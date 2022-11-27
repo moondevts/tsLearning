@@ -112,10 +112,12 @@ my-first-plugin> npm install --save-dev @figma/plugin-typings
 - Add new component to Figma file
 - Tell Figma to zoom into new post.
 
-
 ### Build UI
 
-
+[Figma Plugin DS](https://github.com/thomas-lowry/figma-plugin-ds)
+```
+<script src="https://cdn.jsdelivr.net/gh/thomas-lowry/figma-plugin-ds/dist/iife/figma-plugin-ds.js"></script>
+```
 
 
 ## [6 Build your first plugin: 5. Publishing to the Community](https://www.youtube.com/watch?v=ZpJ_z1WNRgA&list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii&index=6)
