@@ -122,6 +122,15 @@ my-first-plugin> npm install --save-dev @figma/plugin-typings
 <script src="https://cdn.jsdelivr.net/gh/thomas-lowry/figma-plugin-ds/dist/iife/figma-plugin-ds.js"></script>
 ```
 
+### console test
+```console
+figma.root.findOne(node => node.type == "COMPONENT_SET" && node.name == "post").defaultVariant;
+
+figma.root.findOne(node => node.type == "COMPONENT_SET" && node.name == "post").defaultVariant.createInstance();
+```
+
+@@@ Video
+~ 32:00
 
 ## [6 Build your first plugin: 5. Publishing to the Community](https://www.youtube.com/watch?v=ZpJ_z1WNRgA&list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii&index=6)
 
