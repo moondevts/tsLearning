@@ -25,6 +25,9 @@ Build your first plugin
 - [Figma for Beginners](https://www.figma.com/community/file/915647337333327091)
 - [Figma Plugin DS](https://github.com/thomas-lowry/figma-plugin-ds)
 
+- [API Reference](https://www.figma.com/plugin-docs/api/api-reference/)
+
+
 
 # LECTURES
 ## [1 a new series from Figma](https://www.youtube.com/watch?v=-JAphRkjV9g&list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii&index=1)
@@ -123,3 +126,5 @@ my-first-plugin> npm install --save-dev @figma/plugin-typings
 ## [6 Build your first plugin: 5. Publishing to the Community](https://www.youtube.com/watch?v=ZpJ_z1WNRgA&list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii&index=6)
 
 - [BYFP 5: Publishing to the Community](https://help.figma.com/hc/en-us/articles/4407531267607--BYFP-5-Publishing-to-the-Community)
+
+
