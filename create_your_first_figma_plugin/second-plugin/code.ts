@@ -10,7 +10,7 @@ figma.ui.onmessage = msg => {
   if (msg.type === 'actionGenerate') {
     console.log(msg.formDataObj);
     // Destructure the form data object
-    const {circleSize, circleSpacing, colorCode, colorName, frameDirction, tintNumber} = msg.formDataObj;
+    const {circleSize, circleSpacing, colorCode, colorName, frameDirection, tintNumber} = msg.formDataObj;
 
     // Create a frame and name it
     const parentFrame = figma.createFrame();
@@ -18,7 +18,7 @@ figma.ui.onmessage = msg => {
     parentFrame.name = 'Tints of ' + colorName + ' color';
 
     // Add auto layout to the frame and set the direction, padding, spacing and sizing mode
-    parentFrame.layoutMode = frameDirction.toUpperCase();
+    parentFrame.layoutMode = frameDirection.toUpperCase();
     parentFrame.paddingLeft = 64;
     parentFrame.paddingRight = 64;
     parentFrame.paddingTop = 64;
