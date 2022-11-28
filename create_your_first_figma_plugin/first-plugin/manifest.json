@@ -1,0 +1,9 @@
+{
+  "name": "first-plugin",
+  "id": "1178935766517014669",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ]
+}
